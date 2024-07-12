@@ -12,7 +12,7 @@ def generate_phonetic():
     try:
         output_list = [phonetic_dict[letter] for letter in word]
     except KeyError:
-        print("Must be one word (no spaces) and letters not numbers douche bag :(")
+        print("Must be one word (no spaces) and letters not numbers")
         generate_phonetic()
     else:
         print(output_list)
